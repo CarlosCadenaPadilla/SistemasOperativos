@@ -22,11 +22,11 @@ $ sudo apt-get install nodejs npm git
 ~~~
 **STEP 3:**
 ~~~
-$ git clone https://github.com/GeekyTheory/Raspberry-Pi-Status.git
+$ git clone https://github.com/CarlosCadenaPadilla/SistemasOperativos.git
 ~~~
 **STEP 4:**
 ~~~
-$ cd Raspberry-Pi-Status
+$ cd SistemasOperativos
 ~~~
 **STEP 5:**
 ~~~
