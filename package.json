@@ -1,0 +1,11 @@
+{
+  "name": "Intel-Galileo-Status",
+  "version": "0.1.0",
+  "description": "Intel Galileo monitoring panel",
+  "main": "server.js",
+  "repository": "https://github.com/CarlosCadenaPadilla/proyectoSO",
+  "author": "Carlos Cadena <carlos.cadena@correounivalle.edu.co>",
+  "dependencies": {
+   "socket.io": "~0.9.14"
+  }
+}
