@@ -63,7 +63,7 @@
 
     <!-- Comienza el Javascript -->
     <script>
-    // Creo un WebSocket. ¡Poned la IP de vuestra Raspberry Pi! 
+    // Creo un WebSocket. ¡Poned la IP de la intel galileo! 
     var socket = io.connect('http://'+ location.host);
     // console.log(location.host)
     // Creo un nuevo objeto 'Chart'
@@ -86,7 +86,7 @@
             selected : 100
         },
         title: {
-            text: 'CPU Temperature Raspberry Pi'
+            text: 'CPU Temperature Intel Galileo'
         },
         xAxis: {
             type: 'datetime',
@@ -128,7 +128,7 @@
             selected : 100
         },
         title: {
-            text: 'CPU Load Raspberry Pi'
+            text: 'CPU Load Intel Galileo'
         },
         xAxis: {
             type: 'datetime',
