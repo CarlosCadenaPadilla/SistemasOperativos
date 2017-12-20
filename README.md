@@ -6,10 +6,6 @@ This project consist on a Node.js-based Intel Galileo monitoring panel that allo
 
 This is a very useful web app for checking the status not only of a Intel Galileo but also of a Linux computer.
 
-# Author
-
-This project has been developed by [Carlos Cadena](http://github.com/carloscadenapadilla "carlos andres adena").
-
 
 # Screenshot
 ![Monitoring Panel](http://i1.wp.com/geekytheory.com/wp-content/uploads/2013/12/panel-monitorizacion-raspberry-pi-node-js.png "Raspberry Pi Monitoring Panel")
