@@ -2,69 +2,50 @@
 Panel de Monitoreo de Intel Galileo
 ===================
 
-This project consist on a Node.js-based Intel Galileo monitoring panel that allows to check the temperature, memory status (free, cached, buffered, total...), the CPU load and the top tasks with their PID. 
+Este proyecto consiste en graficar los procesos del sistema de tarjeta Intel Galileo basado en Node.js que permite verificar la temperatura, el estado de la memoria (libre, en caché, en búfer, total ...), la carga de la CPU y las tareas principales con su PID.
 
-This is a very useful web app for checking the status not only of a Intel Galileo but also of a Linux computer.
+Esta es una aplicación web muy útil para verificar el estado no solo de un Intel Galileo sino también de una computadora con Linux.
 
 
-# Screenshot
+# PANTALLAZO
 ![Monitoring Panel](http://i1.wp.com/geekytheory.com/wp-content/uploads/2013/12/panel-monitorizacion-raspberry-pi-node-js.png "Raspberry Pi Monitoring Panel")
 
-# How to install
+# COMO INSTALARLO
 
-**STEP 1:**
+**PASO 1:**
 ~~~
-$ sudo apt-get update && sudo apt-get upgrade
+$ apt-get update && sudo apt-get upgrade
 ~~~
-**STEP 2:**
+**PASO 2:**
 ~~~
-$ sudo apt-get install nodejs npm git
+$ apt-get install nodejs npm git
 ~~~
-**STEP 3:**
+**PASO 3:**
 ~~~
 $ git clone https://github.com/CarlosCadenaPadilla/SistemasOperativos.git
 ~~~
-**STEP 4:**
+**PASO 4:**
 ~~~
 $ cd SistemasOperativos
 ~~~
-**STEP 5:**
+**PASO 5:**
 ~~~
 $ npm install
 ~~~
-If everything is OK, go to step 6. If it throws an error:
+Si todo esta bien, ir al paso 6. Si muestra algun error se debe realizar lo siguiente:
 ~~~
 npm config set registry http://registry.npmjs.org/
 ~~~
 ~~~
 npm install
 ~~~
-**STEP 6:**
+**PASO 6:**
 ~~~
 $ nodejs server.js
 ~~~
-**STEP 7:**
+**PASO 7:**
 
-Open a browser with your Raspberry Pi's IP and start to listen the port 8000. For example: [http://192.168.1.100:8000](http://192.168.1.100:8000)
+Ejecute un navegador de internet en la Intel Galileo y inicielo escuchando en el puerto 8000. por ejemplo: [http://192.168.1.100:8000](http://192.168.1.100:8000)
 
 
-# License
-~~~~~~
-Copyright 2014 GeekyTheory (Mario Pérez Esteso)
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-~~~~~~~
-
-# More info
-
-For more details, please visit: [Geeky Theory](http://geekytheory.com/panel-de-monitorizacion-para-raspberry-pi-con-node-js/ "Geeky Theory")
